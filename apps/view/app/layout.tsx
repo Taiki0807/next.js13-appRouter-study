@@ -1,8 +1,8 @@
 import "./globals.css";
 
-import { Inter } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Navbar } from "./_components/pages";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,8 +11,13 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang="en" className="h-full bg-gray-50">
+        <body className="h-full">
+          <Navbar />
+          {children}
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
