@@ -15,3 +15,10 @@ model task {
   title String
   content String?
 }
+
+model Product {
+  id   String @id @default(uuid())
+  name      String
+  imageUrl  String
+  price     Float
+}
