@@ -43,3 +43,8 @@ Note: Fill in `.env` file (use template from `.env.example`) before starts.
 ### packages/
 
 Internal packages are packages which are only intended to be used inside your monorepo.
+
+### 今後使ってみたいもの・勉強したいもの
+
+- [ ] [react-virtuoso](https://virtuoso.dev/)
+- [ ] [tRPC](https://trpc.io/)
