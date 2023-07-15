@@ -48,3 +48,12 @@ Internal packages are packages which are only intended to be used inside your mo
 
 - [ ] [react-virtuoso](https://virtuoso.dev/)
 - [ ] [tRPC](https://trpc.io/)
+- [ ] [editor](https://github.com/mdx-editor/editor)
+- [ ] [https://www.openpreviews.com/](https://www.openpreviews.com/)
+- [ ] [https://www.react-graph-gallery.com/](https://www.react-graph-gallery.com/)
+
+#### ドキュメント作るとき
+
+- [ ] [nextra](https://nextra.site/)
+- [ ] [starlight](https://starlight.astro.build/)
+- [ ] [docusaurus](https://docusaurus.io/)
