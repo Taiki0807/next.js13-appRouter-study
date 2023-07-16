@@ -57,3 +57,8 @@ Internal packages are packages which are only intended to be used inside your mo
 - [ ] [nextra](https://nextra.site/)
 - [ ] [starlight](https://starlight.astro.build/)
 - [ ] [docusaurus](https://docusaurus.io/)
+
+#### 決済サービス
+
+- [ ] [https://www.lemonsqueezy.com/](https://www.lemonsqueezy.com/)
+- [ ] [https://www.paddle.com/compare/stripe](https://www.paddle.com/compare/stripe)
