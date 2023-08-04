@@ -1,9 +1,7 @@
 import { rest } from "msw";
 
 export const handlers = [
-  rest.get("*/api/v1/products", async (req, res, ctx) => {
-    console.log("Received request:", req);
-
+  rest.get(process.env.NEXT_PUBLIC_API_BASE_URL + "/api/v1/products", async (req, res, ctx) => {
     return res(
       ctx.json({
         data: [
