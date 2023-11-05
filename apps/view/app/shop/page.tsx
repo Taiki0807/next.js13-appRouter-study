@@ -1,9 +1,9 @@
 import Shop from "../_components/pages/Shop/Shop";
 
-const page = async () => {
+const page = () => {
   return (
     <div>
-      {/* @ts-expect-error Server Component */}
+      {/* @ts-expect-error Async Server Component */}
       <Shop />
     </div>
   );
